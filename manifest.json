@@ -1,9 +1,9 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "musicalmushr00m.UntouchableSigSuitFix",
+	"name": "Signature Suit fix for Untouchable",
+	"description": "Fixes Signature Suit mod compatibilities with Untouchable",
+	"authors": ["musicalmushr00m"],
+	"frameworkVersion": "2.0.0",
+	"version": "1.0.0",
+	"contentFolders": ["content"]
 }
