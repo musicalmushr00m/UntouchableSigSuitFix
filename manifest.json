@@ -4,7 +4,7 @@
 	"description": "Fixes Signature Suit mod compatibilities with Untouchable",
 	"authors": ["musicalmushr00m"],
 	"frameworkVersion": "2.33.6",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"contentFolders": ["content"],
 	"updateCheck": "https://github.com/musicalmushr00m/UntouchableSigSuitFix/releases/latest/download/updates.json"
 }
