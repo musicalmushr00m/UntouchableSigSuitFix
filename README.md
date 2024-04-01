@@ -6,4 +6,4 @@ Fixes Signature Suit mod compatibilities with Untouchable
 
 ---
 
-`musicalmushr00m.UntouchableSigSuitFix` v1.1.0, by musicalmushr00m. This README was automatically generated from the mod's manifest.
+`musicalmushr00m.UntouchableSigSuitFix` v1.1.1, by musicalmushr00m. This README was automatically generated from the mod's manifest.
