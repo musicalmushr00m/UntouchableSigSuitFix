@@ -1,10 +1,25 @@
 {
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "musicalmushr00m.UntouchableSigSuitFix",
 	"name": "Signature Suit fix for Untouchable",
 	"description": "Fixes Signature Suit mod compatibilities with Untouchable",
 	"authors": ["musicalmushr00m"],
 	"frameworkVersion": "2.33.6",
 	"version": "1.1.0",
-	"contentFolders": ["content"],
-	"updateCheck": "https://github.com/musicalmushr00m/UntouchableSigSuitFix/releases/latest/download/updates.json"
+	"updateCheck": "https://github.com/musicalmushr00m/UntouchableSigSuitFix/releases/latest/download/updates.json",
+	"loadAfter": ["KevinRudd.FreelancerVariations"],
+	"options": [
+		{
+			"type": "conditional",
+			"name": "Base",
+			"condition": "\"KevinRudd.FreelancerVariations\" not in config.loadOrder",
+			"contentFolders": ["content/base"]
+		},
+		{
+			"type": "conditional",
+			"name": "FV Compat",
+			"condition": "\"KevinRudd.FreelancerVariations\" in config.loadOrder",
+			"contentFolders": ["content/fv-compat"]
+		}
+	]
 }
